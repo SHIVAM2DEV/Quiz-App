@@ -38,7 +38,7 @@ const questions = [
     {
         "question": "भारत में सबसे लंबी नदी कौन सी है?",
         "answers": [
-            {"text": "गंगा", "correct": false},
+            {"text": "सतलुज", "correct": false},
             {"text": "यमुना", "correct": false},
             {"text": "ब्रह्मपुत्र", "correct": false},
             {"text": "गंगा", "correct": true}
@@ -74,10 +74,10 @@ const questions = [
     {
         "question": "स्वतंत्रता के बाद पहला आम चुनाव कब हुआ?",
         "answers": [
-            {"text": "1952", "correct": true},
-            {"text": "1951", "correct": false},
-            {"text": "1949", "correct": false},
-            {"text": "1962", "correct": false}
+            {"text": "1951-52", "correct": true},
+            {"text": "1950-51", "correct": false},
+            {"text": "1949-50", "correct": false},
+            {"text": "1962-63", "correct": false}
         ]
     },
     {
