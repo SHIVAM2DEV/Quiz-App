@@ -1,229 +1,230 @@
 const questions = [
-    {
-        "question": "What is formed when a strip of magnesium is burned?",
-        "answers": [
-            {"text": "Magnesium Oxide", "correct": true},
-            {"text": "Magnesium Hydroxide", "correct": false},
-            {"text": "Magnesium Chloride", "correct": false},
-            {"text": "Magnesium Sulfate", "correct": false}
-        ]
-    },
-    {
-        "question": "Which reaction is an example of a displacement reaction?",
-        "answers": [
-            {"text": "Zn + CuSO₄ → ZnSO₄ + Cu", "correct": true},
-            {"text": "H₂ + O₂ → H₂O", "correct": false},
-            {"text": "NaOH + HCl → NaCl + H₂O", "correct": false},
-            {"text": "CaCO₃ → CaO + CO₂", "correct": false}
-        ]
-    },
-    {
-        "question": "In which type of reaction is energy absorbed?",
-        "answers": [
-            {"text": "Endothermic", "correct": true},
-            {"text": "Exothermic", "correct": false},
-            {"text": "Displacement", "correct": false},
-            {"text": "None of these", "correct": false}
-        ]
-    },
-    {
-        "question": "Which product can make lime water milky?",
-        "answers": [
-            {"text": "Carbon Dioxide", "correct": true},
-            {"text": "Oxygen", "correct": false},
-            {"text": "Hydrogen", "correct": false},
-            {"text": "Nitrogen", "correct": false}
-        ]
-    },
-    {
-        "question": "Photosynthesis is an example of which type of chemical reaction?",
-        "answers": [
-            {"text": "Endothermic", "correct": true},
-            {"text": "Displacement", "correct": false},
-            {"text": "Neutralization", "correct": false},
-            {"text": "Decomposition", "correct": false}
-        ]
-    },
-    {
-        "question": "Which of the following is an acidic substance?",
-        "answers": [
-            {"text": "HCl", "correct": true},
-            {"text": "NaOH", "correct": false},
-            {"text": "KOH", "correct": false},
-            {"text": "Ca(OH)₂", "correct": false}
-        ]
-    },
-    {
-        "question": "What is the pH of a neutral salt?",
-        "answers": [
-            {"text": "7", "correct": true},
-            {"text": "14", "correct": false},
-            {"text": "1", "correct": false},
-            {"text": "5", "correct": false}
-        ]
-    },
-    {
-        "question": "Which substance is necessary for soap making?",
-        "answers": [
-            {"text": "Sodium Hydroxide", "correct": true},
-            {"text": "Hydrochloric Acid", "correct": false},
-            {"text": "Nitric Acid", "correct": false},
-            {"text": "Sulfuric Acid", "correct": false}
-        ]
-    },
-    {
-        "question": "Which acid is used in the digestive system of living organisms?",
-        "answers": [
-            {"text": "Hydrochloric Acid", "correct": true},
-            {"text": "Sulfuric Acid", "correct": false},
-            {"text": "Nitric Acid", "correct": false},
-            {"text": "Acetic Acid", "correct": false}
-        ]
-    },
-    {
-        "question": "What is the common name for acetic acid?",
-        "answers": [
-            {"text": "Vinegar", "correct": true},
-            {"text": "Lemon juice", "correct": false},
-            {"text": "Herbal extract", "correct": false},
-            {"text": "Lactic acid", "correct": false}
-        ]
-    },
-    {
-        "question": "Which element is a metal?",
-        "answers": [
-            {"text": "Sodium", "correct": true},
-            {"text": "Sulfur", "correct": false},
-            {"text": "Carbon", "correct": false},
-            {"text": "Oxygen", "correct": false}
-        ]
-    },
-    {
-        "question": "Which property of metals makes them suitable for making electrical wires?",
-        "answers": [
-            {"text": "Ductility", "correct": true},
-            {"text": "Thermal conductivity", "correct": false},
-            {"text": "Color", "correct": false},
-            {"text": "Solubility", "correct": false}
-        ]
-    },
-    {
-        "question": "What is the alloy of copper and zinc called?",
-        "answers": [
-            {"text": "Brass", "correct": true},
-            {"text": "Bronze", "correct": false},
-            {"text": "Steel", "correct": false},
-            {"text": "Duralumin", "correct": false}
-        ]
-    },
-    {
-        "question": "Which metal is the most reactive among the following?",
-        "answers": [
-            {"text": "Potassium", "correct": true},
-            {"text": "Iron", "correct": false},
-            {"text": "Copper", "correct": false},
-            {"text": "Lead", "correct": false}
-        ]
-    },
-    {
-        "question": "Which property of non-metals makes them good insulators?",
-        "answers": [
-            {"text": "Non-conductivity of electricity", "correct": true},
-            {"text": "Luster", "correct": false},
-            {"text": "Thermal conductivity", "correct": false},
-            {"text": "Sound conductivity", "correct": false}
-        ]
-    },
-    {
-        "question": "How many valence electrons does carbon have?",
-        "answers": [
-            {"text": "4", "correct": true},
-            {"text": "6", "correct": false},
-            {"text": "2", "correct": false},
-            {"text": "8", "correct": false}
-        ]
-    },
-    {
-        "question": "What is the chemical formula of ethanol?",
-        "answers": [
-            {"text": "C₂H₅OH", "correct": true},
-            {"text": "CH₃OH", "correct": false},
-            {"text": "CH₄", "correct": false},
-            {"text": "C₂H₄", "correct": false}
-        ]
-    },
-    {
-        "question": "Which form of carbon is a good conductor of electricity?",
-        "answers": [
-            {"text": "Graphite", "correct": true},
-            {"text": "Diamond", "correct": false},
-            {"text": "Coal", "correct": false},
-            {"text": "Charcoal", "correct": false}
-        ]
-    },
-    {
-        "question": "Which compound is used to make soap?",
-        "answers": [
-            {"text": "Sodium Stearate", "correct": true},
-            {"text": "Sodium Chloride", "correct": false},
-            {"text": "Potassium Sulfate", "correct": false},
-            {"text": "Ethanol", "correct": false}
-        ]
-    },
-    {
-        "question": "What type of bond does carbon form?",
-        "answers": [
-            {"text": "Covalent bond", "correct": true},
-            {"text": "Ionic bond", "correct": false},
-            {"text": "Metallic bond", "correct": false},
-            {"text": "Hydrogen bond", "correct": false}
-        ]
-    },
-    {
-        "question": "How many groups are there in the modern periodic table?",
-        "answers": [
-            {"text": "18", "correct": true},
-            {"text": "7", "correct": false},
-            {"text": "10", "correct": false},
-            {"text": "14", "correct": false}
-        ]
-    },
-    {
-        "question": "On what basis are elements arranged in the periodic table?",
-        "answers": [
-            {"text": "Atomic number", "correct": true},
-            {"text": "Atomic weight", "correct": false},
-            {"text": "Physical state", "correct": false},
-            {"text": "Solubility", "correct": false}
-        ]
-    },
-    {
-        "question": "Which elements in the periodic table are highly electronegative?",
-        "answers": [
-            {"text": "Halogens", "correct": true},
-            {"text": "Alkali metals", "correct": false},
-            {"text": "Metals", "correct": false},
-            {"text": "Non-metals", "correct": false}
-        ]
-    },
-    {
-        "question": "Which group of elements in the periodic table are called transition metals?",
-        "answers": [
-            {"text": "Transition elements", "correct": true},
-            {"text": "Halogens", "correct": false},
-            {"text": "Noble gases", "correct": false},
-            {"text": "Alkali metals", "correct": false}
-        ]
-    },
-    {
-        "question": "How many elements are there in the first period?",
-        "answers": [
-            {"text": "2", "correct": true},
-            {"text": "8", "correct": false},
-            {"text": "18", "correct": false},
-            {"text": "32", "correct": false}
-        ]
-    }
+    
+        {
+            "question": "What is the law of conservation of mass?",
+            "answers": [
+                {"text": "Mass can be created.", "correct": false},
+                {"text": "Mass can be destroyed.", "correct": false},
+                {"text": "Mass is neither created nor destroyed in a chemical reaction.", "correct": true},
+                {"text": "Mass is variable.", "correct": false}
+            ]
+        },
+        {
+            "question": "Which of the following is an example of a chemical change?",
+            "answers": [
+                {"text": "Melting of ice", "correct": false},
+                {"text": "Burning of wood", "correct": true},
+                {"text": "Dissolving sugar in water", "correct": false},
+                {"text": "Boiling water", "correct": false}
+            ]
+        },
+        {
+            "question": "What is the chemical formula for water?",
+            "answers": [
+                {"text": "H2O", "correct": true},
+                {"text": "O2", "correct": false},
+                {"text": "CO2", "correct": false},
+                {"text": "NaCl", "correct": false}
+            ]
+        },
+        {
+            "question": "Which gas is produced during respiration?",
+            "answers": [
+                {"text": "Oxygen", "correct": false},
+                {"text": "Nitrogen", "correct": false},
+                {"text": "Carbon dioxide", "correct": true},
+                {"text": "Hydrogen", "correct": false}
+            ]
+        },
+        {
+            "question": "What type of bond is formed when electrons are shared between atoms?",
+            "answers": [
+                {"text": "Ionic bond", "correct": false},
+                {"text": "Covalent bond", "correct": true},
+                {"text": "Metallic bond", "correct": false},
+                {"text": "Hydrogen bond", "correct": false}
+            ]
+        },
+        {
+            "question": "Which of the following is not a characteristic of metals?",
+            "answers": [
+                {"text": "Malleable", "correct": false},
+                {"text": "Ductile", "correct": false},
+                {"text": "Luster", "correct": false },
+                {"text":  "Poor conductors of electricity", "correct": true}
+            ]
+        },
+        {
+            "question": "What is the pH of pure water?",
+            "answers": [
+                {"text": "0", "correct": false},
+                {"text": "7", "correct": true},
+                {"text": "14", "correct": false},
+                {"text": "10", "correct": false}
+            ]
+        },
+        {
+            "question": "Which of the following is an acid?",
+            "answers": [
+                {"text": "NaOH", "correct": false},
+                {"text": "HCl", "correct": true},
+                {"text": "NaCl", "correct": false},
+                {"text": "CaCO3", "correct": false}
+            ]
+        },
+        {
+            "question": "What is the main component of air?",
+            "answers": [
+                {"text": "Oxygen", "correct": false},
+                {"text": "Carbon dioxide", "correct": false},
+                {"text": "Nitrogen", "correct": true},
+                {"text": "Hydrogen", "correct": false}
+            ]
+        },
+        {
+            "question": "Which element has the highest electronegativity?",
+            "answers": [
+                {"text": "Oxygen", "correct": false},
+                {"text": "Fluorine", "correct": true},
+                {"text": "Chlorine", "correct": false},
+                {"text": "Carbon", "correct": false}
+            ]
+        },
+        {
+            "question": "What is the chemical formula for sodium chloride?",
+            "answers": [
+                {"text": "NaCl", "correct": true},
+                {"text": "KCl", "correct": false},
+                {"text": "CaCl2", "correct": false},
+                {"text": "Na2SO4", "correct": false}
+            ]
+        },
+        {
+            "question": "What is the primary product of photosynthesis?",
+            "answers": [
+                {"text": "Oxygen", "correct": true},
+                {"text": "Carbon dioxide", "correct": false},
+                {"text": "Glucose", "correct": false},
+                {"text": "Water", "correct": false}
+            ]
+        },
+        {
+            "question": "Which type of reaction occurs when an acid reacts with a base?",
+            "answers": [
+                {"text": "Synthesis", "correct": false},
+                {"text": "Decomposition", "correct": false},
+                {"text": "Combustion", "correct": false},
+                {"text":  "Neutralization", "correct": true}
+            ]
+        },
+        {
+            "question": "What is the process of separating a mixture based on the different boiling points of its components?",
+            "answers": [
+                {"text": "Filtration", "correct": false},
+                {"text": "Evaporation", "correct": false},
+                {"text": "Distillation", "correct": true},
+                {"text": "Chromatography", "correct": false}
+            ]
+        },
+        {
+            "question": "Which gas is used in the preparation of baking soda?",
+            "answers": [
+                {"text": "Carbon dioxide", "correct": true},
+                {"text": "Oxygen", "correct": false},
+                {"text": "Nitrogen", "correct": false},
+                {"text": "Hydrogen", "correct": false}
+            ]
+        },
+        {
+            "question": "Which of the following is a product of respiration?",
+            "answers": [
+                {"text": "Glucose", "correct": false},
+                {"text": "Water", "correct": false},
+                {"text": "Carbon dioxide", "correct": true},
+                {"text": "Oxygen", "correct": false}
+            ]
+        },
+        {
+            "question": "What is the process by which plants lose water vapor called?",
+            "answers": [
+                {"text": "Transpiration", "correct": true},
+                {"text": "Evaporation", "correct": false},
+                {"text": "Condensation", "correct": false},
+                {"text": "Photosynthesis", "correct": false}
+            ]
+        },
+        {
+            "question": "Which of the following is an example of a saturated hydrocarbon?",
+            "answers": [
+                {"text": "C2H2", "correct": false},
+                {"text": "C2H6", "correct": true},
+                {"text": "C3H6", "correct": false},
+                {"text": "C4H8", "correct": false}
+            ]
+        },
+        {
+            "question": "What is the boiling point of water at sea level?",
+            "answers": [
+                {"text": "100°C", "correct": true},
+                {"text": "0°C", "correct": false},
+                {"text": "50°C", "correct": false},
+                {"text": "25°C", "correct": false}
+            ]
+        },
+        {
+            "question": "Which of the following is not a greenhouse gas?",
+            "answers": [
+                {"text": "Carbon dioxide", "correct": false},
+                {"text": "Methane", "correct": false},
+                {"text": "Oxygen", "correct": true},
+                {"text": "Nitrous oxide", "correct": false}
+            ]
+        },
+        {
+            "question": "What is the main source of energy for life on Earth?",
+            "answers": [
+                {"text": "Geothermal energy", "correct": false},
+                {"text": "Solar energy", "correct": true},
+                {"text": "Nuclear energy", "correct": false},
+                {"text": "Wind energy", "correct": false}
+            ]
+        },
+        {
+            "question": "Which process converts glucose into energy in cells?",
+            "answers": [
+                {"text": "Photosynthesis", "correct": false},
+                {"text": "Respiration", "correct": true},
+                {"text": "Fermentation", "correct": false},
+                {"text": "Transpiration", "correct": false}
+            ]
+        },
+        {
+            "question": "Which of the following is a noble gas?",
+            "answers": [
+                {"text": "Oxygen", "correct": false},
+                {"text": "Helium", "correct": true},
+                {"text": "Nitrogen", "correct": false},
+                {"text": "Hydrogen", "correct": false}
+            ]
+        },
+        {
+            "question": "What is the main function of chlorophyll in plants?",
+            "answers": [
+                {"text": "To absorb water", "correct": false},
+                {"text": "To absorb sunlight", "correct": true},
+                {"text": "To release oxygen", "correct": false},
+                {"text": "To synthesize glucose", "correct": false}
+            ]
+        },
+        {
+            "question": "Which element is essential for the formation of proteins?",
+            "answers": [
+                {"text": "Carbon", "correct": false},
+                {"text": "Nitrogen", "correct": true},
+                {"text": "Oxygen", "correct": false},
+                {"text": "Hydrogen", "correct": false}
+            ]
+        }
    
 ]
 ;
