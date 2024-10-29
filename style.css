@@ -89,3 +89,13 @@ body{
 .greenmsg{
     color: green;
 }
+
+.topic{
+    width: 80px;
+    text-align: center;
+    background: rgb(105, 35, 211);
+    color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

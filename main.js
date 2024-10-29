@@ -1,229 +1,145 @@
 const questions = [
     {
-        "question": "What is the law of conservation of mass?",
+        "topic": "Algebra",
+        "question": "What is the value of x in the equation 3x + 9 = 18?",
         "answers": [
-            {"text": "Mass can be created.", "correct": false},
-            {"text": "Mass can be destroyed.", "correct": false},
-            {"text": "Mass is neither created nor destroyed in a chemical reaction.", "correct": true},
-            {"text": "Mass is variable.", "correct": false}
+          { "text": "3", "correct": true },
+          { "text": "2", "correct": false },
+          { "text": "4", "correct": false },
+          { "text": "1", "correct": false }
         ]
-    },
-    {
-        "question": "Which of the following is an example of a chemical change?",
+      },
+      {
+        "topic": "Algebra",
+        "question": "Which of the following is a quadratic equation?",
         "answers": [
-            {"text": "Melting of ice", "correct": false},
-            {"text": "Burning of wood", "correct": true},
-            {"text": "Dissolving sugar in water", "correct": false},
-            {"text": "Boiling water", "correct": false}
+          { "text": "x + 1 = 0", "correct": false },
+          { "text": "x² + 5x + 6 = 0", "correct": true },
+          { "text": "x - 2 = 0", "correct": false },
+          { "text": "3x + 4 = 7", "correct": false }
         ]
-    },
-    {
-        "question": "What is the chemical formula for water?",
+      },
+      {
+        "topic": "Geometry",
+        "question": "The sum of the interior angles of a triangle is:",
         "answers": [
-            {"text": "H2O", "correct": true},
-            {"text": "O2", "correct": false},
-            {"text": "CO2", "correct": false},
-            {"text": "NaCl", "correct": false}
+          { "text": "270°", "correct": false },
+          { "text": "360°", "correct": false },
+          { "text": "90°", "correct": false },
+          { "text": "180°", "correct": true }
+          
         ]
-    },
-    {
-        "question": "Which gas is produced during respiration?",
+      },
+      {
+        "topic": "Geometry",
+        "question": "What is the perimeter of a rectangle with length 10 cm and width 5 cm?",
         "answers": [
-            {"text": "Oxygen", "correct": false},
-            {"text": "Nitrogen", "correct": false},
-            {"text": "Carbon dioxide", "correct": true},
-            {"text": "Hydrogen", "correct": false}
+          { "text": "30 cm", "correct": false },
+          { "text": "20 cm", "correct": false },
+          { "text": "25 cm", "correct": true },
+          { "text": "15 cm", "correct": false }
         ]
-    },
-    {
-        "question": "What type of bond is formed when electrons are shared between atoms?",
+      },
+      {
+        "topic": "Statistics",
+        "question": "What is the median of the following numbers: 3, 7, 5, 9, 11?",
         "answers": [
-            {"text": "Ionic bond", "correct": false},
-            {"text": "Covalent bond", "correct": true},
-            {"text": "Metallic bond", "correct": false},
-            {"text": "Hydrogen bond", "correct": false}
+          { "text": "5", "correct": false },
+          { "text": "7", "correct": true },
+          { "text": "8", "correct": false },
+          { "text": "9", "correct": false }
         ]
-    },
-    {
-        "question": "Which of the following is not a characteristic of metals?",
+      },
+      {
+        "topic": "Statistics",
+        "question": "What is the mode of the following numbers: 1, 2, 2, 3, 4?",
         "answers": [
-            {"text": "Malleable", "correct": false},
-            {"text": "Ductile", "correct": false},
-            {"text": "Luster", "correct": false },
-            {"text":  "Poor conductors of electricity", "correct": true}
+          { "text": "2", "correct": true},
+          { "text": "1", "correct": false },
+          { "text": "3", "correct": false },
+          { "text": "4", "correct": false }
         ]
-    },
-    {
-        "question": "What is the pH of pure water?",
+      },
+      {
+        "topic": "Mensuration",
+        "question": "What is the area of a triangle with base 10 cm and height 5 cm?",
         "answers": [
-            {"text": "0", "correct": false},
-            {"text": "7", "correct": true},
-            {"text": "14", "correct": false},
-            {"text": "10", "correct": false}
+          { "text": "25 cm²", "correct": true },
+          { "text": "20 cm²", "correct": false },
+          { "text": "30 cm²", "correct": false },
+          { "text": "15 cm²", "correct": false }
         ]
-    },
-    {
-        "question": "Which of the following is an acid?",
+      },
+      {
+        "topic": "Mensuration",
+        "question": "What is the circumference of a circle with radius 7 cm? (Use π = 22/7)",
         "answers": [
-            {"text": "NaOH", "correct": false},
-            {"text": "HCl", "correct": true},
-            {"text": "NaCl", "correct": false},
-            {"text": "CaCO3", "correct": false}
+          { "text": "14 cm", "correct": false },
+          { "text": "22 cm", "correct": false },
+          { "text": "44 cm", "correct": true },
+          { "text": "28 cm", "correct": false }
         ]
-    },
-    {
-        "question": "What is the main component of air?",
+      },
+      {
+        "topic": "Probability",
+        "question": "If two coins are tossed, what is the probability of getting at least one head?",
         "answers": [
-            {"text": "Oxygen", "correct": false},
-            {"text": "Carbon dioxide", "correct": false},
-            {"text": "Nitrogen", "correct": true},
-            {"text": "Hydrogen", "correct": false}
+          { "text": "1/4", "correct": false },
+          { "text": "3/4", "correct": true },
+          { "text": "1/2", "correct": false },
+          { "text": "1", "correct": false }
         ]
-    },
-    {
-        "question": "Which element has the highest electronegativity?",
+      },
+      {
+        "topic": "Probability",
+        "question": "In a pack of cards, what is the probability of drawing a heart?",
         "answers": [
-            {"text": "Oxygen", "correct": false},
-            {"text": "Fluorine", "correct": true},
-            {"text": "Chlorine", "correct": false},
-            {"text": "Carbon", "correct": false}
+          { "text": "1/4", "correct": true },
+          { "text": "1/2", "correct": false },
+          { "text": "1/3", "correct": false },
+          { "text": "1/52", "correct": false }
         ]
-    },
-    {
-        "question": "What is the chemical formula for sodium chloride?",
+      },
+      {
+        "topic": "Probability",
+        "question": "What is the probability of rolling an even number on a six-sided die?",
         "answers": [
-            {"text": "NaCl", "correct": true},
-            {"text": "KCl", "correct": false},
-            {"text": "CaCl2", "correct": false},
-            {"text": "Na2SO4", "correct": false}
+          { "text": "1/2", "correct": true },
+          { "text": "1/3", "correct": false },
+          { "text": "1/6", "correct": false },
+          { "text": "1/4", "correct": false }
         ]
-    },
-    {
-        "question": "What is the primary product of photosynthesis?",
+      },
+      {
+        "topic": "Algebra",
+        "question": "Which of the following numbers is prime?",
         "answers": [
-            {"text": "Oxygen", "correct": true},
-            {"text": "Carbon dioxide", "correct": false},
-            {"text": "Glucose", "correct": false},
-            {"text": "Water", "correct": false}
+          { "text": "1", "correct": false },
+          { "text": "2", "correct": true },
+          { "text": "4", "correct": false },
+          { "text": "9", "correct": false }
         ]
-    },
-    {
-        "question": "Which type of reaction occurs when an acid reacts with a base?",
+      },
+      {
+        "topic": "Geometry",
+        "question": "How many sides does a pentagon have?",
         "answers": [
-            {"text": "Synthesis", "correct": false},
-            {"text": "Decomposition", "correct": false},
-            {"text": "Combustion", "correct": false},
-            {"text":  "Neutralization", "correct": true}
+          { "text": "4", "correct": false },
+          { "text": "6", "correct": false },
+          {  "text": "5", "correct": true },
+          { "text": "3", "correct": false }
         ]
-    },
-    {
-        "question": "What is the process of separating a mixture based on the different boiling points of its components?",
+      },
+      {
+        "topic": "Statistics",
+        "question": "What is the range of the following set of numbers: 4, 8, 6, 5, 3?",
         "answers": [
-            {"text": "Filtration", "correct": false},
-            {"text": "Evaporation", "correct": false},
-            {"text": "Distillation", "correct": true},
-            {"text": "Chromatography", "correct": false}
+          { "text": "5", "correct": true },
+          { "text": "4", "correct": false },
+          { "text": "2", "correct": false },
+          { "text": "1", "correct": false }
         ]
-    },
-    {
-        "question": "Which gas is used in the preparation of baking soda?",
-        "answers": [
-            {"text": "Carbon dioxide", "correct": true},
-            {"text": "Oxygen", "correct": false},
-            {"text": "Nitrogen", "correct": false},
-            {"text": "Hydrogen", "correct": false}
-        ]
-    },
-    {
-        "question": "Which of the following is a product of respiration?",
-        "answers": [
-            {"text": "Glucose", "correct": false},
-            {"text": "Water", "correct": false},
-            {"text": "Carbon dioxide", "correct": true},
-            {"text": "Oxygen", "correct": false}
-        ]
-    },
-    {
-        "question": "What is the process by which plants lose water vapor called?",
-        "answers": [
-            {"text": "Transpiration", "correct": true},
-            {"text": "Evaporation", "correct": false},
-            {"text": "Condensation", "correct": false},
-            {"text": "Photosynthesis", "correct": false}
-        ]
-    },
-    {
-        "question": "Which of the following is an example of a saturated hydrocarbon?",
-        "answers": [
-            {"text": "C2H2", "correct": false},
-            {"text": "C2H6", "correct": true},
-            {"text": "C3H6", "correct": false},
-            {"text": "C4H8", "correct": false}
-        ]
-    },
-    {
-        "question": "What is the boiling point of water at sea level?",
-        "answers": [
-            {"text": "100°C", "correct": true},
-            {"text": "0°C", "correct": false},
-            {"text": "50°C", "correct": false},
-            {"text": "25°C", "correct": false}
-        ]
-    },
-    {
-        "question": "Which of the following is not a greenhouse gas?",
-        "answers": [
-            {"text": "Carbon dioxide", "correct": false},
-            {"text": "Methane", "correct": false},
-            {"text": "Oxygen", "correct": true},
-            {"text": "Nitrous oxide", "correct": false}
-        ]
-    },
-    {
-        "question": "What is the main source of energy for life on Earth?",
-        "answers": [
-            {"text": "Geothermal energy", "correct": false},
-            {"text": "Solar energy", "correct": true},
-            {"text": "Nuclear energy", "correct": false},
-            {"text": "Wind energy", "correct": false}
-        ]
-    },
-    {
-        "question": "Which process converts glucose into energy in cells?",
-        "answers": [
-            {"text": "Photosynthesis", "correct": false},
-            {"text": "Respiration", "correct": true},
-            {"text": "Fermentation", "correct": false},
-            {"text": "Transpiration", "correct": false}
-        ]
-    },
-    {
-        "question": "Which of the following is a noble gas?",
-        "answers": [
-            {"text": "Oxygen", "correct": false},
-            {"text": "Helium", "correct": true},
-            {"text": "Nitrogen", "correct": false},
-            {"text": "Hydrogen", "correct": false}
-        ]
-    },
-    {
-        "question": "What is the main function of chlorophyll in plants?",
-        "answers": [
-            {"text": "To absorb water", "correct": false},
-            {"text": "To absorb sunlight", "correct": true},
-            {"text": "To release oxygen", "correct": false},
-            {"text": "To synthesize glucose", "correct": false}
-        ]
-    },
-    {
-        "question": "Which element is essential for the formation of proteins?",
-        "answers": [
-            {"text": "Carbon", "correct": false},
-            {"text": "Nitrogen", "correct": true},
-            {"text": "Oxygen", "correct": false},
-            {"text": "Hydrogen", "correct": false}
-        ]
-    }
+      }
       
 ]
 ;
@@ -232,6 +148,8 @@ const questions = [
 const questionElement = document.getElementById("question");
 const ansbtns = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const topic = document.querySelector(".topic");
+
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -251,6 +169,7 @@ function showQuestion(){
     let currentQuestion = questions[currentQuestionIndex]
     let questiNo = currentQuestionIndex + 1;
     console.log(typeof questiNo)
+    topic.innerText = questions[currentQuestionIndex].topic
     questionElement.innerHTML = questiNo + ". " + currentQuestion.question;
     currentQuestion.answers.forEach(answer =>{
         const button = document.createElement("button");
