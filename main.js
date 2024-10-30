@@ -1,147 +1,206 @@
 const questions = [
-    {
-        "topic": "Algebra",
-        "question": "What is the value of x in the equation 3x + 9 = 18?",
-        "answers": [
-          { "text": "3", "correct": true },
-          { "text": "2", "correct": false },
-          { "text": "4", "correct": false },
-          { "text": "1", "correct": false }
-        ]
-      },
-      {
-        "topic": "Algebra",
-        "question": "Which of the following is a quadratic equation?",
-        "answers": [
-          { "text": "x + 1 = 0", "correct": false },
-          { "text": "x² + 5x + 6 = 0", "correct": true },
-          { "text": "x - 2 = 0", "correct": false },
-          { "text": "3x + 4 = 7", "correct": false }
-        ]
-      },
-      {
-        "topic": "Geometry",
-        "question": "The sum of the interior angles of a triangle is:",
-        "answers": [
-          { "text": "270°", "correct": false },
-          { "text": "360°", "correct": false },
-          { "text": "90°", "correct": false },
-          { "text": "180°", "correct": true }
-          
-        ]
-      },
-      {
-        "topic": "Geometry",
-        "question": "What is the perimeter of a rectangle with length 10 cm and width 5 cm?",
-        "answers": [
-          { "text": "30 cm", "correct": false },
-          { "text": "20 cm", "correct": false },
-          { "text": "25 cm", "correct": true },
-          { "text": "15 cm", "correct": false }
-        ]
-      },
-      {
-        "topic": "Statistics",
-        "question": "What is the median of the following numbers: 3, 7, 5, 9, 11?",
-        "answers": [
-          { "text": "5", "correct": false },
-          { "text": "7", "correct": true },
-          { "text": "8", "correct": false },
-          { "text": "9", "correct": false }
-        ]
-      },
-      {
-        "topic": "Statistics",
-        "question": "What is the mode of the following numbers: 1, 2, 2, 3, 4?",
-        "answers": [
-          { "text": "2", "correct": true},
-          { "text": "1", "correct": false },
-          { "text": "3", "correct": false },
-          { "text": "4", "correct": false }
-        ]
-      },
-      {
-        "topic": "Mensuration",
-        "question": "What is the area of a triangle with base 10 cm and height 5 cm?",
-        "answers": [
-          { "text": "25 cm²", "correct": true },
-          { "text": "20 cm²", "correct": false },
-          { "text": "30 cm²", "correct": false },
-          { "text": "15 cm²", "correct": false }
-        ]
-      },
-      {
-        "topic": "Mensuration",
-        "question": "What is the circumference of a circle with radius 7 cm? (Use π = 22/7)",
-        "answers": [
-          { "text": "14 cm", "correct": false },
-          { "text": "22 cm", "correct": false },
-          { "text": "44 cm", "correct": true },
-          { "text": "28 cm", "correct": false }
-        ]
-      },
-      {
-        "topic": "Probability",
-        "question": "If two coins are tossed, what is the probability of getting at least one head?",
-        "answers": [
-          { "text": "1/4", "correct": false },
-          { "text": "3/4", "correct": true },
-          { "text": "1/2", "correct": false },
-          { "text": "1", "correct": false }
-        ]
-      },
-      {
-        "topic": "Probability",
-        "question": "In a pack of cards, what is the probability of drawing a heart?",
-        "answers": [
-          { "text": "1/4", "correct": true },
-          { "text": "1/2", "correct": false },
-          { "text": "1/3", "correct": false },
-          { "text": "1/52", "correct": false }
-        ]
-      },
-      {
-        "topic": "Probability",
-        "question": "What is the probability of rolling an even number on a six-sided die?",
-        "answers": [
-          { "text": "1/2", "correct": true },
-          { "text": "1/3", "correct": false },
-          { "text": "1/6", "correct": false },
-          { "text": "1/4", "correct": false }
-        ]
-      },
-      {
-        "topic": "Algebra",
-        "question": "Which of the following numbers is prime?",
-        "answers": [
-          { "text": "1", "correct": false },
-          { "text": "2", "correct": true },
-          { "text": "4", "correct": false },
-          { "text": "9", "correct": false }
-        ]
-      },
-      {
-        "topic": "Geometry",
-        "question": "How many sides does a pentagon have?",
-        "answers": [
-          { "text": "4", "correct": false },
-          { "text": "6", "correct": false },
-          {  "text": "5", "correct": true },
-          { "text": "3", "correct": false }
-        ]
-      },
-      {
-        "topic": "Statistics",
-        "question": "What is the range of the following set of numbers: 4, 8, 6, 5, 3?",
-        "answers": [
-          { "text": "5", "correct": true },
-          { "text": "4", "correct": false },
-          { "text": "2", "correct": false },
-          { "text": "1", "correct": false }
-        ]
-      }
-      
+  {
+      "topic": "Kavi aur Kavita",
+      "question": "किस कवि ने 'सूरदास के पद' की रचना की?",
+      "answers": [
+          { "text": "सूरदास", "correct": true },
+          { "text": "कबीर", "correct": false },
+          { "text": "तुलसीदास", "correct": false },
+          { "text": "मीरा", "correct": false }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "नीचे दिए गए वाक्यों में से कौन सा 'अव्यय' का उदाहरण है?",
+      "answers": [
+          { "text": "वह तेजी से दौड़ा", "correct": false },
+          { "text": "अचानक वह गिर पड़ा", "correct": true },
+          { "text": "वह अपनी किताब पढ़ता है", "correct": false },
+          { "text": "राम ने भोजन किया", "correct": false }
+      ]
+  },
+  {
+      "topic": "Sahitya aur Katha",
+      "question": "'गोदान' उपन्यास के लेखक कौन हैं?",
+      "answers": [
+          { "text": "मुंशी प्रेमचंद", "correct": true },
+          { "text": "रवींद्रनाथ टैगोर", "correct": false },
+          { "text": "महादेवी वर्मा", "correct": false },
+          { "text": "सुमित्रानंदन पंत", "correct": false }
+      ]
+  },
+  {
+      "topic": "Alankar",
+      "question": "‘रात दिन का साथी’ मुहावरे का अर्थ क्या है?",
+      "answers": [
+          { "text": "दिन और रात की यात्रा", "correct": false },
+          { "text": "हमेशा साथ रहने वाला", "correct": true },
+          { "text": "केवल रात का साथी", "correct": false },
+          { "text": "केवल दिन का साथी", "correct": false }
+      ]
+  },
+  {
+      "topic": "Sahitya aur Katha",
+      "question": "‘मेरे बचपन के दिन’ के लेखक कौन हैं?",
+      "answers": [
+          { "text": "मंजू श्री", "correct": false },
+          { "text": "महादेवी वर्मा", "correct": true },
+          { "text": "सुभद्रा कुमारी चौहान", "correct": false },
+          { "text": "राहुल सांकृत्यायन", "correct": false }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "‘बहुत’ शब्द का सही प्रयोग क्या है?",
+      "answers": [
+          { "text": "बहुत लोग यहाँ रहते हैं", "correct": true },
+          { "text": "बहुत मैं खाना खाता हूँ", "correct": false },
+          { "text": "बहुत सुबह है", "correct": false },
+          { "text": "बहुत तुम अच्छे हो", "correct": false }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "‘तथा’ शब्द का उपयोग किसमें होता है?",
+      "answers": [
+          { "text": "जुड़ने के लिए", "correct": true },
+          { "text": "विरोध के लिए", "correct": false },
+          { "text": "प्रश्न के लिए", "correct": false },
+          { "text": "समय के लिए", "correct": false }
+      ]
+  },
+  {
+      "topic": "Sahitya aur Katha",
+      "question": "'राम की शक्तिपूजा' किस कवि की रचना है?",
+      "answers": [
+          { "text": "सूरदास", "correct": false },
+          { "text": "महादेवी वर्मा", "correct": false },
+          { "text": "सुमित्रानंदन पंत", "correct": false },
+          { "text": "सूर्यकांत त्रिपाठी निराला", "correct": true }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "‘अधीर’ शब्द का सही विलोम शब्द क्या है?",
+      "answers": [
+          { "text": "धैर्य", "correct": false },
+          { "text": "अधीरता", "correct": false },
+          { "text": "सुधीर", "correct": false },
+          { "text": "धीर", "correct": true }
+      ]
+  },
+  {
+      "topic": "Kavi aur Kavita",
+      "question": "‘तुलसीदास’ किस प्रकार के कवि हैं?",
+      "answers": [
+          { "text": "विरह रस", "correct": false },
+          { "text": "भक्ति रस", "correct": true },
+          { "text": "शृंगार रस", "correct": false },
+          { "text": "वीर रस", "correct": false }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "‘खड़ा’ शब्द का संधि-विच्छेद क्या है?",
+      "answers": [
+          { "text": "ख+अड़ा", "correct": true },
+          { "text": "ख+रा+ड़ा", "correct": false },
+          { "text": "ख+ड़ा", "correct": false },
+          { "text": "ख+रा", "correct": false }
+      ]
+  },
+  {
+      "topic": "Sahitya aur Katha",
+      "question": "‘हरिवंश राय बच्चन’ किस प्रकार के कवि माने जाते हैं?",
+      "answers": [
+          { "text": "भक्ति कवि", "correct": false },
+          { "text": "श्रृंगार कवि", "correct": true },
+          { "text": "वीर कवि", "correct": false },
+          { "text": "विरह कवि", "correct": false }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "‘भाषा’ शब्द का तद्भव रूप क्या है?",
+      "answers": [
+          { "text": "बोल", "correct": false },
+          { "text": "बानी", "correct": false },
+          { "text": "भाखा", "correct": true },
+          { "text": "भाषी", "correct": false }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "नीचे दिए गए विकल्पों में से कौन सा 'संधि' है?",
+      "answers": [
+          { "text": "सु+ख", "correct": false },
+          { "text": "धन्य+वाद", "correct": true },
+          { "text": "विषय+गुण", "correct": false },
+          { "text": "पुस्त+क", "correct": false }
+      ]
+  },
+  {
+      "topic": "Kavi aur Kavita",
+      "question": "‘कोई दीवाना कहता है’ कविता किसने लिखी है?",
+      "answers": [
+          { "text": "गोपालदास नीरज", "correct": false },
+          { "text": "हरिवंश राय बच्चन", "correct": false },
+          { "text": "कुमार विश्वास", "correct": true },
+          { "text": "निराला", "correct": false }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "‘तुम्हारा’ का शुद्ध रूप क्या है?",
+      "answers": [
+          { "text": "तुमरा", "correct": false },
+          { "text": "तुमारा", "correct": false },
+          { "text": "तुम्हारा", "correct": true },
+          { "text": "तुम्हरी", "correct": false }
+      ]
+  },
+  {
+      "topic": "Sahitya aur Katha",
+      "question": "‘पुष्प की अभिलाषा’ कविता के लेखक कौन हैं?",
+      "answers": [
+          { "text": "सुभद्रा कुमारी चौहान", "correct": false },
+          { "text": "जयशंकर प्रसाद", "correct": true },
+          { "text": "हरिवंश राय बच्चन", "correct": false },
+          { "text": "धर्मवीर भारती", "correct": false }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "‘आकाश’ शब्द का समास क्या है?",
+      "answers": [
+          { "text": "अनेक", "correct": false },
+          { "text": "द्विगु", "correct": false },
+          { "text": "तत्पुरुष", "correct": true },
+          { "text": "संयुक्त", "correct": false }
+      ]
+  },
+  {
+      "topic": "Vyakaran",
+      "question": "‘हरियाली’ का विलोम शब्द क्या है?",
+      "answers": [
+          { "text": "नीरता", "correct": false },
+          { "text": "सूखापन", "correct": true },
+          { "text": "पानी", "correct": false },
+          { "text": "वनस्पति", "correct": false }
+      ]
+  },
+  {
+      "topic": "Kavi aur Kavita",
+      "question": "‘नवजात शिशु’ किसके रचनाकार हैं?",
+      "answers": [
+          { "text": "सूरदास", "correct": false },
+          { "text": "महादेवी वर्मा", "correct": true },
+          { "text": "कबीर", "correct": false },
+          { "text": "मीरा", "correct": false }
+      ]
+  }
 ]
+
 ;
 
 

@@ -91,7 +91,7 @@ body{
 }
 
 .topic{
-    width: 80px;
+    min-width: 80px;
     text-align: center;
     background: rgb(105, 35, 211);
     color: yellow;
